@@ -18,3 +18,6 @@ This scripts can be used to copy the contents of one calendar in the macOS Calen
 * Sometimes the Calendar.app will be unresponsive while the copy process is running.
 * Sometimes the Calendar.app will not refresh the UI and Events will not be shown. Usually a restart of the app will fix this.
 
+## License
+
+MIT
