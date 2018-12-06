@@ -1,18 +1,17 @@
 # Calendar Copy Script
 
-This scripts can be used to copy the contents of one calendar in the macOS
-Calendar app to another calendar.
+This scripts can be used to copy the contents of one calendar in the macOS Calendar app to another calendar.
 
 ## How to use
 
-:warning: Be careful: all events in the  destination calendar will be removed! :warning:
+:warning: **Be careful: All events in the  destination calendar will be removed!** :warning:
 
 * Find the UUIDs of the calendars you which to copy by running the script `Calendar UUIDs.scpt`.
 * Copy `config.plist-sample` to `config.plist` and enter the UUIDs.
 * Run `Calendasync.scpt` to check that everything is working. This might take some time.
 * Setup a cronjob to copy the calendars regularly. Example to run it every 3 hours:
 
-    0 */3 * * * osascript /path/to/source/Calendersync.scpt
+      0 */3 * * * osascript /path/to/source/Calendersync.scpt
 
 ## Good to know
 
